@@ -22,7 +22,7 @@ export class EmailForm extends Component {
       <form id="signup-form" onSubmit={this.onSubmit} method="post" action="https://sendmail.w3layouts.com/SubmitContactForm">
         <input
           type="email"
-          name="email"
+          name="w3lSender"
           id="email"
           placeholder="Email Address"
         />
