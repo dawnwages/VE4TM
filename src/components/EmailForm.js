@@ -4,17 +4,17 @@ export class EmailForm extends Component {
   constructor() {
     super();
     this.state = { message: '' };
-    this.onSubmit = this.onSubmit.bind(this);
+    // this.onSubmit = this.onSubmit.bind(this);
   }
 
-  onSubmit(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    this.setState({ message: 'Thank you!' });
-    setTimeout(() => {
-      this.setState({ message: '' });
-    }, 3000);
-  }
+  // onSubmit(e) {
+  //   e.preventDefault();
+  //   e.stopPropagation();
+  //   this.setState({ message: 'Thank you!' });
+  //   setTimeout(() => {
+  //     this.setState({ message: '' });
+  //   }, 3000);
+  // }
 
   render() {
     const { message } = this.state;
