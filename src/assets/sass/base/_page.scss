@@ -87,3 +87,10 @@ body,
 .none {
   display: none;
 }
+
+
+@media screen and (max-width: 1200px) {
+  #signup-form input[type=email], #signup-form input[type=password], #signup-form input[type=type], #signup-form input[type=text] {
+    width: 100% !important;
+  }
+}
