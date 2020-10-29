@@ -20,11 +20,9 @@ export class EmailForm extends Component {
     const { message } = this.state;
     return (
       <form id="signup-form" onSubmit={this.onSubmit} method="post" action="https://sendmail.w3layouts.com/SubmitContactForm">
-        <div class="none">
           <input type="text" placeholder="Name" name="w3lName" />
           <input type="text" placeholder="Subject" name="w3lSubject" />
           <input type="text" placeholder="Message" name="w3lMessage" />
-        </div>
         <input
           type="email"
           name="w3lSender"
