@@ -23,15 +23,5 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/VE4TM',
     },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/VE4TM',
-    },
-    {
-      icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:dawn.wages@gmail.com',
-    },
   ],
 };
